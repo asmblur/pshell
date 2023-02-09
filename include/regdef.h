@@ -1,0 +1,72 @@
+/* regdef.h -- define MIPS register names.  */
+
+#ifndef mips_regdef_h
+
+#define zero    $0
+/*#define at    $1*/
+#define v0    $2
+#define v1    $3
+#define a0    $4
+#define a1    $5
+#define a2    $6
+#define a3    $7
+#define t0    $8
+#define t1    $9
+#define t2    $10
+#define t3    $11
+#define t4    $12
+#define t5    $13
+#define t6    $14
+#define t7    $15
+#define s0    $16
+#define s1    $17
+#define s2    $18
+#define s3    $19
+#define s4    $20
+#define s5    $21
+#define s6    $22
+#define s7    $23
+#define t8    $24
+#define t9    $25
+#define k0    $26
+#define k1    $27
+#define gp    $gp
+#define sp    $sp
+#define s8    $30
+#define    fp    $fp
+#define ra    $31
+#define pc    $pc
+
+#define Index        $0
+#define Random        $1
+#define    EntryLo0    $2
+#define    EntryLo1    $3
+#define    Context        $4
+#define    PageMask    $5
+#define    Wired        $6
+#define    DCIC        $7
+#define    BadVAddr    $8
+#define    Count        $9
+#define    EntryHi        $10
+#define    Compare        $11
+#define    SR        $12
+#define    Cause        $13
+#define    EPC        $14
+#define    PRId        $15
+#define    Config        $16
+#define    LLAddr        $17
+#define    WatchLo        $18
+#define    WatchHi        $19
+#define    XContext    $20
+#define    C0r21        $21
+#define    C0r22        $22
+#define    C0r23        $23
+#define    C0r24        $24
+#define    C0r25        $25
+#define    ECC        $26
+#define    CacheERR    $27
+#define    TagLo        $28
+#define    TagHi        $29
+#define    ErrorEPC    $30
+#define    C0r31        $31
+#endif /* mips_regdef_h */
